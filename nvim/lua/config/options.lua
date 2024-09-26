@@ -6,6 +6,9 @@
 vim.cmd("language en_US")
 vim.opt.helplang = "ja"
 
+-- File settings
+vim.opt.fileencoding = "utf-8"
+
 -- Indent settings
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
