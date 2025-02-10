@@ -5,6 +5,8 @@ return {
     "keaising/im-select.nvim",
     opts = {
       default_im_select = "com.apple.keylayout.ABC",
+      defalut_command = "macism",
+      set_default_events = { "InsertLeave", "CmdlineLeave" },
     },
   },
 }
