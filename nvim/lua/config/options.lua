@@ -6,6 +6,9 @@
 vim.cmd("language en_US")
 vim.opt.helplang = "ja"
 
+-- Encoding
+vim.opt.encoding = "utf-8"
+
 -- File settings
 vim.opt.fileencoding = "utf-8"
 

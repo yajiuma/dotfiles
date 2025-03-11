@@ -21,6 +21,10 @@ alias lg="lazygit"
 alias tm="tmux"
 alias vi="nvim"
 
-if [ $SHLVL = 1 ]
-    tmux
+#if [ $SHLVL = 1 ]
+#    tmux
+#end
+
+if not set -q TMUX
+    tmux attach || tmux new
 end
